@@ -39,6 +39,7 @@ exports.updateProduct = async (req,res,next) =>{
  
 }
 
+
 exports.deleteProduct = async (req,res,next) =>{
     try {
         const productId = req.params.productId;
