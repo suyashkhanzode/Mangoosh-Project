@@ -8,12 +8,12 @@ route.get('/get-product',shopController.getAllProducts);
 
 route.get('/get-product/:productId',shopController.getProductById);
 
-// route.post('/add-to-cart/:productId',shopController.addToCart)
+route.post('/add-to-cart/:productId',shopController.addToCart)
 
-// route.get('/get-cart',shopController.getCartItems)
+route.get('/get-cart',shopController.getCartItems)
 
-// route.delete('/delete-cart/:productId',shopController.deleteFromCart)
+route.delete('/delete-cart/:productId',shopController.deleteFromCart)
 
-// route.post('/add-order',shopController.addOrder);
+route.post('/add-order',shopController.addOrder);
 
 module.exports = route;
